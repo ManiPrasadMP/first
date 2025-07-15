@@ -5,7 +5,7 @@ public class Car {
 		System.out.println("Car started");
 	}
 	void changeGear(int gn) {
-		System.out.println("Gear is changed to "+gn+" gear.");
+		System.out.println("Gear  changed to "+gn+" gear.");
 		if(gn == 0)
 			stop();
 	}
